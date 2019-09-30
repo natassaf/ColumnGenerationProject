@@ -9,7 +9,7 @@ import read_data_script as read_data
 from LNS import LNS 
 from IPython.display import display
 from yappi import get_func_stats, COLUMNS_FUNCSTATS, COLUMNS_THREADSTATS
-import branch_and_bound as bnb
+import branch_and_bound_pending as bnb
 
 #General Functions
 ################################
