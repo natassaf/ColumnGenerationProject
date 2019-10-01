@@ -7,4 +7,5 @@ Sagemath 8.6
 Python 3
 
 # Notes
+The main function of the algorithm in the master_problem.py
 The branch and bound module is not complete as it implements only the branching on the number of vehicles strategy.
