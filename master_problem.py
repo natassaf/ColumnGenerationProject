@@ -515,7 +515,7 @@ def print_actual_path(res_variables, omega, mapping_dict_num_to_code,n):
     print(path_list)
  
 ################ Main Function ################
-if __name__ == "__main__":: 
+if __name__ == "__main__":
     global starting_time 
     global ending_time
         
@@ -523,8 +523,8 @@ if __name__ == "__main__"::
     month_dict = create_month_to_string_dict()
 
     #Get input from user
-    user_input = raw_input("Please insert the date of requests you wish to run the algorithm at in the format day/month/year: ")
-    n_selection = raw_input("Please select he number of requests you want to optimize: ")
+    user_input = raw_input("Please insert the date of requests you wish to run the algorithm at in the format day/month/year: (ex: 21/12/2017) ")
+    n_selection = raw_input("Please select he number of requests you want to optimize: (ex:12)")
     input = user_input.split("/")
     input[1] = month_dict[int(input[1])-1]
 
